@@ -1,0 +1,11 @@
+header, footer, img, a, h1, nav, p{
+	display: none;
+}
+
+Table td:nth-child(4){
+	display: none;
+}
+
+
+
+

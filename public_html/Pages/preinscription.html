@@ -1,0 +1,121 @@
+<!doctype html>
+	<html lang="fr">
+
+	<head>
+		<meta charset="utf-8">
+		<title >Club Cyclisme 63</title>
+		<link rel="stylesheet" type="text/css" href="../CSS/Style_indexe.css">
+		<meta name="description" content="Création site club de sport"/>
+		<meta name="author" content="Laurine Brette"/>
+		<meta name="keywords" content="html, TP Découverte Programmation Web "/>
+		<style>
+		body {
+			background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+		}
+	</style>
+</head>
+
+<body>
+	<h1 id="titre"> Club Cyclisme 63 </h1>
+	<a href="https://fr-fr.facebook.com/"><img id="Facebook" src="../Images/logoFacebook.png"></a>
+	<a href="https://twitter.com/?lang=fr"><img id= "Twitter" src="../Images/logoTwitter.png"></a>
+
+	<header >
+		<nav id="menu">
+			<ul >
+				<li><a href="index.html">Accueil</a></li> 
+				<li><a href="horaire.html">Horaire</a></li>
+				<li><a href="#">Média 
+					<span class="flèche">&#x25BC;</span>
+				</a>
+				<ul class="sous-menu">
+					<li><a href="galeriephotos.html">Photos</a></li>
+					<li><a href="videos.html">Vidéos</a></li>
+				</ul>
+				<li><a href="planningTarif.html">Tarif</a></li>
+				<li><a href="preinscription.html">Inscription</a></li> 
+			</ul>
+		</nav>
+	</header>
+
+	<form class="sectionFlex" action="form.php" method="GET">
+
+		<label for="Nom">Nom *</label>
+		<input type="text" name="Nom" placeholder="Nom" required /><br>
+
+		<label for="Prenom">Prénom *</label>
+		<input type="text"name="Prenom" placeholder="Prénom" required/><br>
+
+		<label for="Email">Email *</label>
+		<input type="email" name="email" placeholder="ex: jean.dupond@orange.fr" required/><br>
+
+		<label for="Téléphone"> Téléphone</label>
+		<input type="tel" name="tel" placeholder="ex: 06-85-14-78-02" /><br>
+
+		<label for="Activité">Activité</label>
+		<select name="Activité">
+
+			<option value="vtt">VTT</option>
+			<option value="cyr">cyclisme de route</option>
+			<option value="cys">cyclisme en salle</option>
+			<option value="utma">utilisation machine</option>
+
+
+		</select><br>	
+
+		<label for="Catégorie">Catégorie</label>
+		<select name="Catégorie">
+
+			<option value="U7">7 à 12 ans</option>
+			<option value="U13">13 à 16 ans</option>
+			<option value="U17">17 à 22 ans</option>
+			<option value="U22">22 ans et plus</option>
+
+		</select><br>
+
+
+		<label for="Horaire">Horaire</label>
+		<select name="Horaire">
+
+			<option value="lu1">lundi 9h-11h30</option>
+			<option value="ma1">mardi 8h-10h15</option>
+			<option value="me1">mercredi 10h-13h</option>
+			<option value="je1">jeudi 9h-11h30</option>
+			<option value="ve1">vendredi 8h-10h15</option>
+			<option value="sa1">samedi 10h-13h</option>
+			<option value="lu2">lundi 14h-17h</option>
+			<option value="ma2">mardi 13h-16h</option>
+			<option value="me2">mercredi 15h30-19h</option>
+			<option value="je2">jeudi 14h-17h</option>
+			<option value="ve2">vendredi 13h-16h</option>
+			<option value="sa2">samedi 15h30-19h</option>
+		</select><br>
+
+		<p>Etes-vous déjà incrit dans notre club?
+
+			<label for="choix">Oui</label>
+			<input type="radio"name="choix" value="Oui"/>
+
+			<label for="choix">Non</label>
+			<input type="radio"name="choix" value="Non"/>
+
+		</p>
+
+		<label for="desc">Description *</label>
+		<textarea name="description" rows="7"cols="100" required></textarea>
+
+		<label for="bouton"></label>
+		<input type="submit" name="bouton" value="Envoyer le formulaire">
+
+	</form>
+
+	<a class="RetourGauche" href="index.html" >
+	--> Retour page d'acceuil
+</a> 
+
+<footer id="pied_page">
+	<img id="logo" src="../Images/logoFemme.png">
+	<p> Site crée par Laurine BRETTE (Groupe 3)</p>
+</footer>
+</body>
+</html>
