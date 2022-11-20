@@ -7,7 +7,6 @@ echo"
 	<meta charset="utf-8">
 	<title >Club Cyclisme 63</title>
 	<link rel="stylesheet" type="text/css" href="../CSS/Style_indexe.css">
-	<link rel="stylesheet" type="text/css" href="../PHP/forme.php">
     <meta name="description" content="Création site club de sport"/>
     <meta name="author" content="Laurine Brette"/>
     <meta name="keywords" content="html, TP Découverte Programmation Web "/>
@@ -21,7 +20,7 @@ echo"
 <body>
 	<h1 id="titre"> Club Cyclisme 63 </h1>
 	<a href="https://fr-fr.facebook.com/"><img id="Facebook" src="../Images/logoFacebook.png"></a>
-	<a href="https://twitter.com/?lang=fr"><img id= "Twitter" src="../Images/logoTwitter.png"></a>
+	<a href="https://twitter.com/?lang=fr"><img id="Twitter" src="../Images/logoTwitter.png"></a>
 
 	<header >
 	<nav id="menu">
